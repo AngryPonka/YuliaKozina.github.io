@@ -1,0 +1,132 @@
+body {
+    background-color: #ffffff;
+    margin-left: 150px;
+    width: 1060px;
+    vertical-align: middle;
+    border-left: 2px solid #dbdbdb;
+    border-right: 2px solid #dbdbdb;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: 46px;
+}
+
+.page-header {
+    margin-left: 46px;
+    margin-top: 40px;
+    width: 965px;
+    height: 40px;
+    background-color: #585858;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.page-header li {
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+}
+
+.page-header a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.page-header a:active {
+    height: 20px;
+    background-color: #464646;
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+}
+
+.main-menu {
+    float: left;
+    width: 240px;
+    margin-top: 40px;
+    margin-left: 46px;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    height: 40px;
+    margin-top: -5px;
+}
+
+.main-menu a {
+    display: block;
+    margin-bottom: -1px;
+    padding: 10px 22px;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #656363;
+    border: 1px solid #c8c8c8;
+}
+
+.main-menu a:active {
+    background-color: #f9f9f9;
+    color: black;
+    padding-left: 32px;
+}
+
+.pict-text {
+    float: right;
+    margin-right: 48px;
+    margin-top: 40px;
+    width: 675px;
+    height: 575px;
+}
+
+p{
+    margin-top: 40px;
+    margin-right: 29px;
+    margin-left: 25px;
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 13px;
+    line-height: 1.75;
+
+}
+.page-footer {
+    margin-left: 46px;
+    margin-top: 680px;
+    width: 965px;
+    height: 40px;
+    background-color: #e1e1e1;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.page-footer li {
+    display: inline-block;
+    width: 14%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.page-footer a {
+    display: block;
+    color: #2c2c2c;
+    text-decoration: none;
+}
+.page-footer span {
+    display: inline;
+}
+
+#copy {
+    width: 95%;
+    text-align: right;
+}
+
+.page-footer a:active {
+text-decoration: underline;
+}
